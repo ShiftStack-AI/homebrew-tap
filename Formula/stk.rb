@@ -22,12 +22,13 @@ class Stk < Formula
     end
     on_arm do
       url "https://storage.divinefam.org/dl.shiftstack.ai/stk/v0.1.0/stk_linux_arm64"
-      sha256"a4f15cd4614f983a55ddb8486b4135addea6b0554546b2c750ff032a14af5245"
+      sha256 "a4f15cd4614f983a55ddb8486b4135addea6b0554546b2c750ff032a14af5245"
     end
   end
 
   def install
-    bin.install stable.url.split("/").last => "stk"
+    filename = stable.url.split("/").last
+    bin.install filename => "stk"
   end
 
   test do
