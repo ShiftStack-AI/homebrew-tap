@@ -1,28 +1,28 @@
 class Stk < Formula
   desc "ShiftStack CLI — wire up Claude Code with ShiftStack"
   homepage "https://shiftstack.ai"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://storage.divinefam.org/dl.shiftstack.ai/stk/v0.1.0/stk_darwin_amd64"
-      sha256 "4ddc227bd492562f3ae80dee298b3f5ce975d1414fbceb94ea6c9c7fb1efc6c8"
+      url "https://storage.divinefam.org/dl.shiftstack.ai/stk/v0.1.1/stk_darwin_amd64"
+      sha256 "008bc3aceef3df400cc94e4cfe3c99b794197fef360a6ac425d8cb9a5d57a9a7"
     end
     on_arm do
-      url "https://storage.divinefam.org/dl.shiftstack.ai/stk/v0.1.0/stk_darwin_arm64"
-      sha256 "1e0c7ac658eefd7457a5921decd0acb53b432df3f02a516238f6c603349dd95a"
+      url "https://storage.divinefam.org/dl.shiftstack.ai/stk/v0.1.1/stk_darwin_arm64"
+      sha256 "a0e477098719c58f7e26d7d4384f21c611e3f60bd60bbb06a34dd6d876752ab0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://storage.divinefam.org/dl.shiftstack.ai/stk/v0.1.0/stk_linux_amd64"
-      sha256 "6142a30872d7a28f4fe9d4a2be78ddc17760bd57c6af75128a4f13b5fd2673b3"
+      url "https://storage.divinefam.org/dl.shiftstack.ai/stk/v0.1.1/stk_linux_amd64"
+      sha256 "1556768d0a3e335b17600f2b7e45039f553a7bfd99b3999a7d96c3b7ec81a81a"
     end
     on_arm do
-      url "https://storage.divinefam.org/dl.shiftstack.ai/stk/v0.1.0/stk_linux_arm64"
-      sha256 "a4f15cd4614f983a55ddb8486b4135addea6b0554546b2c750ff032a14af5245"
+      url "https://storage.divinefam.org/dl.shiftstack.ai/stk/v0.1.1/stk_linux_arm64"
+      sha256 "13528ed6b8ba73697a18a43375bcd4e6b9b7c76a5aa6159df5d2b1127d53b933"
     end
   end
 
