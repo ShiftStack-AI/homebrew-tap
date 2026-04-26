@@ -27,8 +27,7 @@ class Stk < Formula
   end
 
   def install
-    filename = stable.url.split("/").last
-    bin.install filename => "stk"
+    bin.install Dir["stk_*"].first || Dir["dl.*"].first || Dir["*"].reject { |f| File.directory?(f) }.first => "stk"
   end
 
   test do
