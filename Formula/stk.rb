@@ -7,22 +7,22 @@ class Stk < Formula
   on_macos do
     on_intel do
       url "https://shiftstack.ai/dl/stk/v0.4.0/stk_darwin_amd64"
-      sha256 "2b0170a83ffde3f8f89dac0f4a154b18f743d1b9607c00a533aa5e411a114041"
+      sha256 "ac6c73e1a2ab9b9507bfd31f336b52e6a6808dce995c6e5cf138303fb2a464bb"
     end
     on_arm do
       url "https://shiftstack.ai/dl/stk/v0.4.0/stk_darwin_arm64"
-      sha256 "370ca8ecd819a6f0f3b30eafb91b5da6f2a3e029709d930365b0020012b73852"
+      sha256 "7371e413a028898bedc2be9e40198bc9bc59747988e7a40bb09afe7d084600fa"
     end
   end
 
   on_linux do
     on_intel do
       url "https://shiftstack.ai/dl/stk/v0.4.0/stk_linux_amd64"
-      sha256 "07950f37d0d09ffc7a3ed2609051f575f63b7e931409c7ebc666a0716eb2ce38"
+      sha256 "486eb2954eff687a2d66d619ec4a6ef63e221a5d61feac82d8348127662fefea"
     end
     on_arm do
       url "https://shiftstack.ai/dl/stk/v0.4.0/stk_linux_arm64"
-      sha256 "8b545e21680d5a909c48e7307110f38ba0a45fa23bfe700e86deff58bcbe32de"
+      sha256 "d64b27beaeadff888907c3b3feee9ef9f69b463eca1dcf3b6ca58491bf58f6bf"
     end
   end
 
