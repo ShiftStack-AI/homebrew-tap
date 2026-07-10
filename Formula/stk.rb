@@ -1,28 +1,28 @@
 class Stk < Formula
   desc "ShiftStack CLI — wire up Claude Code with ShiftStack"
   homepage "https://shiftstack.ai"
-  version "0.28.0"
+  version "0.28.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://shiftstack.ai/dl/stk/v0.28.0/stk_darwin_amd64"
-      sha256 "c9e1a19e391d93bfdd370635c6d99b71306ead629c702f3105bbf9b9d6280183"
+      url "https://shiftstack.ai/dl/stk/v0.28.1/stk_darwin_amd64"
+      sha256 "c14ccbda529b0213acc9f5423a6f2d0e6e7d660aa4623bdc4ffb1297d5568428"
     end
     on_arm do
-      url "https://shiftstack.ai/dl/stk/v0.28.0/stk_darwin_arm64"
-      sha256 "5eeb5f7618be1f1be4b351a69e56330672533d3e46f7d097a07fd7207334c10d"
+      url "https://shiftstack.ai/dl/stk/v0.28.1/stk_darwin_arm64"
+      sha256 "6e762838c91bb707ec7a1a160d1ba7c1ae5944dbfcd2ed89c0e0b45d3eb8cf53"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://shiftstack.ai/dl/stk/v0.28.0/stk_linux_amd64"
-      sha256 "bce31d2bf8cb53e8ec2c94f57026f816c76c35b65d7e260b8615d39d6deb5587"
+      url "https://shiftstack.ai/dl/stk/v0.28.1/stk_linux_amd64"
+      sha256 "ca78dc0060acc8fe438d8a43a4db2bec52c45f7203a73a1629b7edc45fbff1c6"
     end
     on_arm do
-      url "https://shiftstack.ai/dl/stk/v0.28.0/stk_linux_arm64"
-      sha256 "f82b0434e602e73ebf7c7badd4c143de1f4a61a4e57b6550eea28f38505c6387"
+      url "https://shiftstack.ai/dl/stk/v0.28.1/stk_linux_arm64"
+      sha256 "4da9846a6aadbe3c510ab93dd4e076f16fb5f66a83cb0b566de756cc650a58ef"
     end
   end
 
